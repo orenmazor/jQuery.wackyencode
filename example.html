@@ -4,11 +4,16 @@
 <script src="jquery.wackyencoder.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
-	$("#lorem").wackyencode();
+	$(".lorem").wackyencode();
+	$("#ipsum").wackydecode();
 });
 </script>
 </head>
 <body>
-<span id="lorem">Oren</span>
+<span class="lorem">Oren</span>
+<span class="lorem">Brad</span>
+<span class="lorem">Jeff</span>
+
+<span id="ipsum"><ol style="list-style-type: upper-alpha" start="3101"><li></li></span>
 </body>
 </html>
